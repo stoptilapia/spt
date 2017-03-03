@@ -14,6 +14,10 @@
 		33050ED01E4262D600141546 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33050ECE1E4262D600141546 /* LaunchScreen.storyboard */; };
 		33050EDB1E4262D900141546 /* SptTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33050EDA1E4262D900141546 /* SptTests.swift */; };
 		33050EE61E4262D900141546 /* SptUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33050EE51E4262D900141546 /* SptUITests.swift */; };
+		33050EF41E4263A900141546 /* TopicsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33050EF31E4263A900141546 /* TopicsTableViewController.swift */; };
+		33050EF61E4263E100141546 /* TutorialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33050EF51E4263E100141546 /* TutorialViewController.swift */; };
+		33050EF81E42640200141546 /* ContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33050EF71E42640200141546 /* ContainerViewController.swift */; };
+		33050EFA1E42641A00141546 /* XMLParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33050EF91E42641A00141546 /* XMLParser.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +51,10 @@
 		33050EE11E4262D900141546 /* SptUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SptUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		33050EE51E4262D900141546 /* SptUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SptUITests.swift; sourceTree = "<group>"; };
 		33050EE71E4262D900141546 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		33050EF31E4263A900141546 /* TopicsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TopicsTableViewController.swift; sourceTree = "<group>"; };
+		33050EF51E4263E100141546 /* TutorialViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TutorialViewController.swift; sourceTree = "<group>"; };
+		33050EF71E42640200141546 /* ContainerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContainerViewController.swift; sourceTree = "<group>"; };
+		33050EF91E42641A00141546 /* XMLParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XMLParser.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +85,10 @@
 		33050EB91E4262D000141546 = {
 			isa = PBXGroup;
 			children = (
+				33050EF31E4263A900141546 /* TopicsTableViewController.swift */,
+				33050EF51E4263E100141546 /* TutorialViewController.swift */,
+				33050EF71E42640200141546 /* ContainerViewController.swift */,
+				33050EF91E42641A00141546 /* XMLParser.swift */,
 				33050EC41E4262D500141546 /* Spt */,
 				33050ED91E4262D900141546 /* SptTests */,
 				33050EE41E4262D900141546 /* SptUITests */,
@@ -259,7 +271,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				33050EF41E4263A900141546 /* TopicsTableViewController.swift in Sources */,
 				33050EC81E4262D500141546 /* ViewController.swift in Sources */,
+				33050EFA1E42641A00141546 /* XMLParser.swift in Sources */,
+				33050EF81E42640200141546 /* ContainerViewController.swift in Sources */,
+				33050EF61E4263E100141546 /* TutorialViewController.swift in Sources */,
 				33050EC61E4262D500141546 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
